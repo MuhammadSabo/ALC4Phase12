@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="205dp"
+        android:layout_height="210dp"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/hhd"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="19dp"
+        android:text="Muhammad Usman Sabo"
+        android:textColor="#000000"
+        android:fontFamily="monospace"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_margin="16dp"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.5mm"
+        android:layout_marginTop="60mm"
+        android:fontFamily="serif"
+        android:text="Track:    Android"
+        android:textColor="#A9A9A9"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68mm"
+        android:fontFamily="serif"
+        android:textColor="#A9A9A9"
+        android:text="Country:  Nigeria"
+        android:layout_marginLeft="0.5mm"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76mm"
+        android:layout_marginLeft="0.5mm"
+        android:textColor="#A9A9A9"
+        android:fontFamily="serif"
+        android:text="E-mail:   musabo073@gmail.com"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84mm"
+        android:layout_marginLeft="0.5mm"
+        android:textColor="#A9A9A9"
+        android:fontFamily="serif"
+        android:text="Phone Number: +2347030068188"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"/>
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.5mm"
+        android:layout_marginTop="93mm"
+        android:textColor="#A9A9A9"
+        android:fontFamily="serif"
+        android:textSize="18sp"
+        android:text="Slack_Username:   @muhammadsabo"
+        tools:layout_editor_absoluteX="16dp"/>
+
+
+</RelativeLayout>

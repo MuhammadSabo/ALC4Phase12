@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ExtraText">
+    xmnls:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="30dp"
+    android:fontFamily="monospace"
+    android:text="@string/welcome_to_alc_4_0"
+    android:textColor="#000000"
+    android:textSize="26sp"
+    android:textStyle="bold"
+
+    />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="#F9AA33"
+        android:fontFamily="sans-serif-thin"
+        android:padding="16dp"
+        android:text="@string/about_alc"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignStart="@+id/about"
+        android:layout_below="@+id/about"
+        android:background="#F9AA33"
+        android:fontFamily="sans-serif-thin"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="@string/my_profile"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+</RelativeLayout>
